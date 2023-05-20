@@ -1,0 +1,394 @@
+.container-1 {
+  height: 50rem;
+}
+
+.navbar {
+  width: 100%;
+  height: 16%;
+}
+
+.upperbar {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 80%;
+  height: 55%;
+  padding-bottom: 15px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  border-color: black;
+  border-bottom: 1px;
+  border-style: solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+@media only screen and (max-width: 1024px) {
+  .upperbar {
+    width: unset;
+  }
+}
+
+.div11 img {
+  height: 65%;
+  margin-top: 10px;
+}
+.div12 {
+  display: flex;
+  /* align-items: center; */
+}
+.leftcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.g20 {
+  height: 80%;
+  width: auto;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+.upperright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: black;
+  border-style: solid;
+  padding-bottom: 9px;
+  margin-bottom: 12px;
+}
+#Afont {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.hamm {
+  color: white;
+
+  cursor: pointer;
+  padding-right: 0.3rem;
+}
+
+.hamburger {
+  position: relative;
+  display: inline-block;
+}
+
+.dropham {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 35px;
+  background-color: white;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+.dropham a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dropham a:hover {
+  text-decoration: underline;
+  background-color: whitesmoke;
+}
+.hamburger:hover .dropham {
+  display: block;
+}
+.dropdown:hover .hamm {
+  background-color: #3e8e41;
+}
+
+.dropham a {
+  color: black;
+  padding: 6px 6px;
+  text-decoration: none;
+  display: block;
+}
+#drop {
+  font-size: 13px;
+}
+.horizontal-drop {
+  display: block;
+  /* position: relative; */
+}
+
+.drop-elements {
+  display: none;
+  position: absolute;
+  left: 160px;
+  top: -5px;
+  min-width: 160px;
+  background-color: whitesmoke;
+  height: 550px;
+  /* height: 100%; */
+}
+.horizontal-drop:hover .drop-elements {
+  display: block;
+}
+
+.fontcontrol {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 3px;
+}
+.theme {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.broo {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.lowdown {
+  margin-top: 15px;
+}
+.lowup {
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-left: 0;
+  border-right: 0;
+  border-color: #cfdbe6;
+  border-style: solid;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+#again {
+  margin-left: 5px;
+}
+/* }
+#A{
+  height: 120%;
+
+} 
+.lightmode{
+  border: 1px;
+  border-radius: 5px;
+  border-color: blue;
+}
+.darkmode{
+  background-color: #1A76BB;;
+} */
+#light {
+  padding: 2px;
+  border: 1px;
+  border-radius: 2px;
+  border-color: #1a76bb;
+  border-style: solid;
+}
+
+#dark {
+  padding: 2px;
+  background-color: #1a76bb;
+  margin-left: 2px;
+}
+.language {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+#hindi {
+  padding-right: 2px;
+  border-right: 1px;
+  border-bottom: 0;
+  border-top: 0;
+  border-left: 0;
+  border-color: black;
+  border-style: solid;
+  margin-right: 2px;
+}
+.lowerright {
+  font-size: 7px;
+  font-family: arial;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lowerright a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.rightcont {
+  display: flex;
+  align-items: center;
+  margin-left: 4px;
+}
+.hamburger {
+  align-self: center;
+}
+@media only screen and (max-width: 900px) {
+  .leftcont {
+    display: none;
+  }
+  .rightcont {
+    display: none;
+  }
+  .lowerbar {
+    display: none;
+  }
+  .upperbar {
+    justify-content: start;
+    border: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .div12 {
+    width: 60px;
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+  .div12 a {
+    display: flex;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .div12 {
+    width: 60px;
+    /* /* margin-left: auto; */
+    margin-right: 0.5rem;
+  }
+
+  .g20 {
+    width: 100%;
+    height: auto;
+  }
+  .div11 img {
+    height: 50%;
+    margin-top: 15px;
+  }
+  .upperbar {
+    margin-top: 30px;
+  }
+}
+/* ================================lowerbar======================================== */
+
+.lowerbar {
+  margin-top: 6px;
+}
+.lowerflexbox {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+}
+
+.option {
+  font-size: 13.5px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.option img {
+  margin-left: 4px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .lowerflexbox {
+    width: unset;
+  }
+  .option {
+    font-size: 11px;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropinsti {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 35px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+.dropinsti a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  font-family: var(Lato);
+}
+
+.dropinsti a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.dropdown:hover .dropinsti {
+  display: block;
+}
+.dropdown:hover .option {
+  background-color: #f0f1f6;
+}
+.dropinsti:hover .dropabt {
+  text-decoration: none;
+}
+
+.abtbtn {
+  color: white;
+  cursor: pointer;
+}
+
+.abt {
+  position: relative;
+  display: inline-block;
+}
+
+.dropabt {
+  display: none;
+  position: absolute;
+  left: 140px;
+  top: 0px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 2;
+  text-decoration: none;
+}
+
+.dropabt a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropabt a:hover {
+  background-color: #f1f1f1;
+}
+.abt:hover .dropabt {
+  display: block;
+}
+/* .abt:hover .dropabt {background-color: #3e8e41;} */
